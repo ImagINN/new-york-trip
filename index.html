@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New York Gezi Rehberi</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+    .welcome-image {
+      width: 95%;
+      height: 100vh;
+      object-fit: cover;
+      border-radius: 10%;
+      padding: 2rem;
+    }
+    .welcome-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    body {
+      background-color: #131316;
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+    section {
+      display: grid;
+      place-items: center;
+      align-content: center;
+      min-height: 100vh;
+    }
+    .header-images {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .headerImg {
+      padding: 0.5rem;
+      margin: 0 0.5rem;
+      width: 300px;
+      height: 300px;
+      border-radius: 25%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .section_image {
+      padding: 0.5rem;
+      margin: 0 0.5rem;
+      width: 90%;
+      height: 80vh;
+    }
+    .header-image:nth-child(2) {
+      transition-delay: 200ms;
+    }
+    .header-image:nth-child(3) {
+      transition-delay: 400ms;
+    }
+    .header-image:nth-child(4) {
+      transition-delay: 600ms;
+    }
+    .hidden {
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateX(-100%);
+      transition: all 1s;
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem;
+      }
+    }
+    .show {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+    }
+    .logos {
+      display: flex;
+    }
+    .logo:nth-child(2) {
+      transition-delay: 300ms;
+    }
+    .logo:nth-child(3) {
+      transition-delay: 600ms;
+    }
+    .logo:nth-child(4) {
+      transition-delay: 900ms;
+    }
+    .logo {
+      background-color: #323232;
+      border-radius: 25%;
+      padding: 0.5rem;
+      margin: 0 0.5rem;
+      width: 75px;
+      height: 75px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hidden {
+        transition: none;
+      }
+    }
+  </style>
+  <body>
+    <section>
+      <div class="welcome">
+        <img
+          class="welcome-image"
+          src="https://images.pexels.com/photos/597909/pexels-photo-597909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt=""
+        />
+        <h1 class="welcome-text">New York Gezi Rehberi</h1>
+      </div>
+    </section>
+    <section class="hidden">
+      <h2>Gezilecek Konumlar</h2>
+      <div class="header-images">
+        <div class="header-image hidden">
+          <img
+            class="headerImg"
+            src="https://res.cloudinary.com/dtljonz0f/image/upload/f_auto/q_auto/v1/gc-v1/new-york-pass/rsz_adobestock_113869179?_a=BAVAEyBy0"
+            alt=""
+          />
+          <h3>Empire State Binası</h3>
+        </div>
+        <div class="header-image hidden">
+          <img
+            class="headerImg"
+            src="https://olmsted.org/wp-content/uploads/2023/06/Park-Aerial_20190604_04-1-scaled.jpg"
+            alt=""
+          />
+          <h3>Centerel Park</h3>
+        </div>
+        <div class="header-image hidden">
+          <img
+            class="headerImg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg"
+            alt=""
+          />
+          <h3>Times Meydanı</h3>
+        </div>
+        <div class="header-image hidden">
+          <img
+            class="headerImg"
+            src="https://www.muzebiletleri.com/wp-content/uploads/2019/07/%C3%96zg%C3%BCrl%C3%BCk-Heykeli-Bileti-ve-Rehberi-3.jpg"
+            alt=""
+          />
+          <h3>Özgürlük Anıtı</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="hidden">
+      <h2>Empire State Binası</h2>
+      <img
+        class="section_image"
+        src="https://res.cloudinary.com/dtljonz0f/image/upload/f_auto/q_auto/v1/gc-v1/new-york-pass/rsz_adobestock_113869179?_a=BAVAEyBy0"
+        alt=""
+      />
+      <p>
+        Empire State Binası, New York City'de bulunan, ikonik bir gökdelen ve
+        dünyanın en tanınmış yapılarından biridir. 1931 yılında tamamlanmış olan
+        bina, 102 katlı ve 381 metre yüksekliğindedir. 1950'lerde eklenen anten
+        ile toplam yüksekliği 443.2 metreye ulaşmıştır. Art Deco mimari tarzında
+        inşa edilen Empire State Binası, 40 yıl boyunca dünyanın en yüksek
+        binası unvanını elinde tutmuştur. Binanın gözlem katları, ziyaretçilere
+        muhteşem bir New York manzarası sunar. Aynı zamanda pek çok film ve
+        televizyon programında yer alarak popüler kültürde de önemli bir yer
+        edinmiştir.
+      </p>
+    </section>
+    <section class="hidden">
+      <h2>Centerel Park</h2>
+      <img
+        class="section_image"
+        src="https://olmsted.org/wp-content/uploads/2023/06/Park-Aerial_20190604_04-1-scaled.jpg"
+        alt=""
+      />
+      <p>
+        Central Park, New York City'nin Manhattan bölgesinde bulunan ve şehrin
+        en büyük ve en ünlü parkıdır. 1857 yılında açılan park, yaklaşık 3.41
+        kilometrekarelik bir alanı kaplar. Tasarımı Frederick Law Olmsted ve
+        Calvert Vaux tarafından yapılan Central Park, şehir halkına doğal bir
+        kaçış sunar ve pek çok farklı aktiviteye ev sahipliği yapar. Parkta
+        göller, yürüyüş yolları, açık alanlar, oyun alanları ve spor tesisleri
+        bulunur. Ayrıca Central Park Zoo, Bethesda Terrace ve Bow Bridge gibi
+        önemli yapılar ve noktalar da parkın içinde yer alır. Central Park,
+        sadece dinlenme ve eğlence için değil, aynı zamanda kültürel
+        etkinlikler, konserler ve tiyatro gösterileri için de popüler bir
+        mekandır. New York'un bu yeşil vahası, her yıl milyonlarca ziyaretçiyi
+        ağırlar ve şehrin sakinlerine doğayla iç içe olma imkanı sunar.
+      </p>
+    </section>
+    <section class="hidden">
+      <h2>Times Meydanı</h2>
+      <img
+        class="section_image"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg"
+        alt=""
+      />
+      <p>
+        Times Meydanı, New York City'nin Manhattan bölgesinde, Broadway ve
+        Seventh Avenue'nun kesiştiği noktada yer alan ve dünyanın en ünlü şehir
+        meydanlarından biridir. "Dünyanın Kavşağı" olarak da bilinen Times
+        Meydanı, 24 saat boyunca canlı ve hareketli atmosferiyle tanınır.
+        Meydan, devasa LED ekranları ve neon tabelalarıyla ünlüdür. Bu ışıklı
+        reklam panoları, hem gündüz hem de gece Times Meydanı'nı aydınlatır ve
+        turistler için ikonik bir görüntü oluşturur. Times Meydanı, Broadway
+        tiyatrolarının yoğun olarak bulunduğu Theatre District'in kalbinde yer
+        alır ve bu nedenle tiyatro severler için önemli bir destinasyondur.
+        Meydan, özellikle Yeni Yıl arifesinde düzenlenen büyük kutlamalarıyla
+        bilinir. Her yıl 31 Aralık gecesi milyonlarca insan Times Meydanı'nda
+        toplanarak, geleneksel olarak gece yarısı devasa bir kristal topun
+        düşüşünü izler ve yeni yılı coşkuyla karşılar. Restoranlar, mağazalar,
+        oteller ve turistik cazibe merkezleriyle dolu olan Times Meydanı, hem
+        yerel halkın hem de turistlerin sıkça ziyaret ettiği bir yerdir. Bu
+        hareketli meydan, New York City'nin enerjisini ve kozmopolit yapısını
+        mükemmel bir şekilde yansıtır.
+      </p>
+    </section>
+    <section class="hidden">
+      <h2>Özgürlük Anıtı</h2>
+      <img
+        class="section_image"
+        src="https://www.muzebiletleri.com/wp-content/uploads/2019/07/%C3%96zg%C3%BCrl%C3%BCk-Heykeli-Bileti-ve-Rehberi-3.jpg"
+        alt=""
+      />
+      <p>
+        Özgürlük Anıtı (Statue of Liberty), New York Limanı'nda bulunan ve
+        Amerika Birleşik Devletleri'nin en ikonik simgelerinden biridir. 1886
+        yılında Fransız hükümeti tarafından Amerika'ya hediye edilen bu anıt,
+        özgürlüğü ve demokrasiye olan bağlılığı sembolize eder. Fransa-Amerika
+        dostluğunun bir işareti olarak tasarlanan anıt, aynı zamanda göçmenler
+        için de yeni bir başlangıcın sembolüdür. Anıt, Frederic Auguste
+        Bartholdi tarafından tasarlanmış ve Gustave Eiffel (Eiffel Kulesi'nin
+        tasarımcısı) tarafından mühendislik çalışmaları yapılmıştır. 93 metre
+        yüksekliğinde olan heykel, bakırdan yapılmıştır ve zamanla yeşil bir
+        patina ile kaplanmıştır. Özgürlük Anıtı'nın sağ elinde bir meşale, sol
+        elinde ise "JULY IV MDCCLXXVI" (4 Temmuz 1776) tarihini taşıyan bir
+        tablet bulunur, bu tarih Amerikan Bağımsızlık Bildirgesi'nin ilan
+        edildiği tarihtir. Anıt, Liberty Adası'nda yer alır ve sadece New York
+        şehrinin değil, tüm dünyanın tanıdığı bir simge haline gelmiştir. Her
+        yıl milyonlarca turist, Özgürlük Anıtı'nı ziyaret ederek hem tarihini
+        öğrenir hem de New York'un muhteşem manzaralarını seyreder. Anıt, UNESCO
+        Dünya Mirası Listesi'nde yer almakta ve Amerika'nın özgürlük, demokrasi
+        ve fırsat ülkesini simgelemektedir.
+      </p>
+    </section>
+  </body>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("hidden");
+        }
+      });
+    });
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((element) => {
+      observer.observe(element);
+    });
+  </script>
+</html>
